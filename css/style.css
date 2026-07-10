@@ -12,11 +12,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  /* Colors — dark tech palette (same family as before) */
-  --bg-dark:      #080c16;
-  --bg-card:      #0e1526;
-  --bg-card-hover:#141d33;
-  --bg-elevated:  #1a2540;
+  /* Colors — dark slate palette (softer than pure black) */
+  --bg-dark:      #171b26;
+  --bg-card:      #1e2433;
+  --bg-card-hover:#252c3d;
+  --bg-elevated:  #2d3548;
   --accent-purple:#7c3aed;
   --accent-cyan:  #06b6d4;
   --accent-pink:  #ec4899;
@@ -86,7 +86,7 @@ ul, ol { list-style: none; }
    Different from RNDM's centered/nav layout
    ============================================ */
 .site-header {
-  background: rgba(8, 12, 22, 0.95);
+  background: rgba(23, 27, 38, 0.95);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-color);
@@ -750,7 +750,7 @@ ul, ol { list-style: none; }
     top: 60px;
     left: 0;
     right: 0;
-    background: rgba(8, 12, 22, 0.98);
+    background: rgba(23, 27, 38, 0.98);
     flex-direction: column;
     padding: var(--space-md);
     border-bottom: 1px solid var(--border-color);
