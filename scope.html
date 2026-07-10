@@ -4,19 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scope — NoF Best Paper Award 2024</title>
-  <meta name="description" content="Research scope and topics covered by the NoF conference and Best Paper Award.">
-  <link rel="stylesheet" href="/style.css">
+  <meta name="description" content="Research scope and topics covered by the International Conference on Network of the Future.">
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 </head>
 <body>
+
+<div class="top-stripe"></div>
+
 <header class="site-header">
   <div class="container header-inner">
-    <div class="site-title"><a href="/">NoF <span class="separator">|</span> <span class="accent">Best Paper Award</span></a></div>
-    <button class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰</button>
+    <div class="site-logo">
+      <a href="/">Network of the Future</a>
+      <span class="sub">NoF 2024 &middot; Best Paper Award</span>
+    </div>
+    <button class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('open')" aria-label="Toggle navigation">☰</button>
     <nav class="main-nav">
       <a href="/">Home</a>
       <a href="/news/">News</a>
-      <a href="/about.html">About the Award</a>
+      <a href="/about.html">About</a>
       <a href="/history.html">History</a>
       <a href="/scope.html" class="active">Scope</a>
     </nav>
@@ -24,43 +30,92 @@
 </header>
 
 <section class="page-section">
-  <div class="container" style="max-width:800px;">
-    <h1>Scope &amp; Topics</h1>
-    <p>The International Conference on Network of the Future (NoF) covers a broad range of topics related to future internet architectures, network softwarization, and intelligent communication systems. Below are the key research areas represented at NoF.</p>
+  <div class="container">
+    <p class="masthead-label" style="text-align:center;">Scope &amp; Topics</p>
+    <h1 style="text-align:center;">Scope &amp; Topics</h1>
+    <p class="lead">The International Conference on Network of the Future (NoF) covers a broad range of topics related to future internet architectures, network softwarisation, and intelligent communication systems.</p>
 
     <h2>Core Topics</h2>
-    <ul>
-      <li><strong>Future Internet Architectures</strong> — Clean-slate designs, information-centric networking, name-based routing</li>
-      <li><strong>Network Softwarization</strong> — Software-Defined Networking (SDN), Network Function Virtualization (NFV), programmable data planes</li>
-      <li><strong>Network Slicing</strong> — End-to-end slicing, resource isolation, slice orchestration</li>
-      <li><strong>Edge &amp; Fog Computing</strong> — Edge node architectures, computation offloading, edge-to-cloud continuum</li>
-      <li><strong>Cloud &amp; Data Center Networks</strong> — Data center topologies, virtual network embedding, resource allocation</li>
-      <li><strong>Content Delivery Architectures</strong> — CDN optimization, adaptive streaming, edge caching strategies</li>
-    </ul>
+
+    <div class="info-grid">
+      <div class="row">
+        <span class="row-label">Future Internet Architectures</span>
+        <span class="row-value">Clean-slate designs, information-centric networking, name-based routing</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Network Softwarisation</span>
+        <span class="row-value">Software-Defined Networking (SDN), Network Function Virtualisation (NFV), programmable data planes</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Network Slicing</span>
+        <span class="row-value">End-to-end slicing, resource isolation, slice orchestration</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Edge &amp; Fog Computing</span>
+        <span class="row-value">Edge node architectures, computation offloading, edge-to-cloud continuum</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Cloud &amp; Data Center Networks</span>
+        <span class="row-value">Data center topologies, virtual network embedding, resource allocation</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Content Delivery</span>
+        <span class="row-value">CDN optimisation, adaptive streaming, edge caching strategies</span>
+      </div>
+    </div>
 
     <h2>Cross-Cutting Areas</h2>
-    <ul>
-      <li><strong>Network Resilience</strong> — Survivability, fault tolerance, disaster recovery</li>
-      <li><strong>Network Automation &amp; Orchestration</strong> — Zero-touch operations, intent-based networking, closed-loop automation</li>
-      <li><strong>Network Monitoring &amp; Analytics</strong> — Telemetry, traffic analysis, anomaly detection</li>
-      <li><strong>Machine Learning for Networks</strong> — AI-driven optimization, predictive resource management, intelligent routing</li>
-      <li><strong>5G/6G Networks</strong> — Next-generation mobile architectures, massive MIMO, mmWave communications</li>
-      <li><strong>Security &amp; Trust</strong> — Secure network architectures, trust management, privacy-preserving mechanisms</li>
-    </ul>
+
+    <div class="info-grid">
+      <div class="row">
+        <span class="row-label">Network Resilience</span>
+        <span class="row-value">Survivability, fault tolerance, disaster recovery</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Automation &amp; Orchestration</span>
+        <span class="row-value">Zero-touch operations, intent-based networking, closed-loop automation</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Monitoring &amp; Analytics</span>
+        <span class="row-value">Telemetry, traffic analysis, anomaly detection</span>
+      </div>
+      <div class="row">
+        <span class="row-label">ML for Networks</span>
+        <span class="row-value">AI-driven optimisation, predictive resource management, intelligent routing</span>
+      </div>
+      <div class="row">
+        <span class="row-label">5G/6G Networks</span>
+        <span class="row-value">Next-generation mobile architectures, massive MIMO, mmWave communications</span>
+      </div>
+      <div class="row">
+        <span class="row-label">Security &amp; Trust</span>
+        <span class="row-value">Secure network architectures, trust management, privacy-preserving mechanisms</span>
+      </div>
+    </div>
 
     <h2>Publication</h2>
-    <p>All accepted and presented papers are published in the <strong>NoF Conference Proceedings</strong> through <strong>IEEE Xplore</strong>. The conference is technically co-sponsored by the <strong>IEEE Communications Society</strong>.</p>
+    <p>All accepted and presented papers are published in the NoF Conference Proceedings through <strong>IEEE Xplore</strong>. The conference is technically co-sponsored by the <strong>IEEE Communications Society</strong>.</p>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="container">
-    <p><strong>NoF Best Paper Award 2024</strong> — Official informational website</p>
+    <p><strong>NoF Best Paper Award 2024</strong> &mdash; Official informational website</p>
+    <p>Maintained for reference purposes related to the 15th International Conference on Network of the Future</p>
     <p><a href="https://networkofthefuture.org">networkofthefuture.org</a></p>
   </div>
 </footer>
+
+<div class="footer-stripe"></div>
+
 <script>
-document.querySelector('.menu-toggle').addEventListener('click', function() { document.querySelector('.main-nav').classList.toggle('open'); });
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.querySelector('.menu-toggle');
+  var nav = document.querySelector('.main-nav');
+  if (toggle) toggle.addEventListener('click', function() { nav.classList.toggle('open'); });
+  nav.querySelectorAll('a').forEach(function(l) { l.addEventListener('click', function() { nav.classList.remove('open'); }); });
+});
 </script>
+
 </body>
 </html>
